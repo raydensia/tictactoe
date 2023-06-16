@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.grid div {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
